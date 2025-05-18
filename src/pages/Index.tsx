@@ -16,7 +16,7 @@ const Index = () => {
         <AboutSection />
         <Skills />
         <Projects />
-      <Contact />
+
       </main>
       <Footer />
     </div>
@@ -24,3 +24,6 @@ const Index = () => {
 };
 
 export default Index;
+
+
+//       <Contact />
