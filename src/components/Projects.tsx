@@ -44,8 +44,8 @@ const Projects = () => {
     description: "This app is a Simple Working Calculator designed with React. Its primary goal is to provide basic arithmetic operations.",
     image: "images/simplecalculator.png",  // Removed leading slash
     tags: ["React", "JavaScript", "CSS"],
-    githubLink: "https://github.com/thollarkings/simple-calculator",
-    liveLink: "https://thollarkings.github.io/simple-calculator/"
+    githubLink: "https://github.com/thollarkings/clever-react-calculator/",
+    liveLink: "https://thollarkings.github.io/clever-react-calculator/"
   },
   {
     title: "Measurements Recorder",
