@@ -62,8 +62,8 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-blue-600" />
                   <div>
                     <h3 className="font-medium text-gray-900">Email</h3>
-                    <a href="mailto:contact@example.com" className="text-blue-600 hover:underline">
-                      contact@example.com
+                    <a href="mailto:mediaxtreme1@gmail.com" className="text-blue-600 hover:underline">
+                      mediaxtreme1@gmail.com
                     </a>
                   </div>
                 </div>
@@ -76,9 +76,14 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-blue-600" />
                   <div>
                     <h3 className="font-medium text-gray-900">Phone</h3>
-                    <a href="tel:+1234567890" className="text-blue-600 hover:underline">
-                      +1 (234) 567-890
-                    </a>
+                    <div className="flex flex-col">
+                      <a href="tel:+2348065970017" className="text-blue-600 hover:underline">
+                        +234-8065970017
+                      </a>
+                      <a href="tel:+2349071333340" className="text-blue-600 hover:underline">
+                        +234-9071333340
+                      </a>
+                    </div>
                   </div>
                 </div>
               </CardContent>
@@ -91,7 +96,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-medium text-gray-900">Location</h3>
                     <p className="text-gray-700">
-                      San Francisco, CA
+                      Nigeria
                     </p>
                   </div>
                 </div>

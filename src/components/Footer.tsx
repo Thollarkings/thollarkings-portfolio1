@@ -54,15 +54,16 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>San Francisco, CA</li>
-              <li>contact@example.com</li>
-              <li>+1 (234) 567-890</li>
+              <li>Nigeria</li>
+              <li>mediaxtreme1@gmail.com</li>
+              <li>+234-8065970017</li>
+              <li>+234-9071333340</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+          <p>&copy; {currentYear} Thollarkings. All rights reserved.</p>
         </div>
       </div>
     </footer>

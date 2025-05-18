@@ -15,6 +15,7 @@ const ContactPage = () => {
             <ul className="list-disc pl-5 mt-4 space-y-2">
               <li>Email: mediaxtreme1@gmail.com</li>
               <li>Phone: +234-8065970017, +234-9071333340</li>
+              <li>Location: Nigeria</li>
             </ul>
           </div>
           <Contact />

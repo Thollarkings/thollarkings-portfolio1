@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="space-y-8">
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-gray-900">
               <span className="block">Hi, I'm</span>
-              <span className="block text-blue-600 mt-1">Your Name</span>
+              <span className="block text-blue-600 mt-1">Oyeniyi Omotola</span>
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl">
               I build beautiful, responsive, and user-friendly web applications.

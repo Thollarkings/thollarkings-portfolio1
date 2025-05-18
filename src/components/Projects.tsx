@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -26,7 +25,7 @@ const Projects = () => {
     {
       title: "My Tailor's Logbook",
       description: "This app is an essential tool for accurately recording client measurements, tracking key details, and ensuring precise fittings and timely delivery.",
-      image: "https://images.unsplash.com/photo-1596939122461-e48c8607c7e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       tags: ["React", "JavaScript", "CSS"],
       githubLink: "https://github.com/thollarkings/mytailors-log",
       liveLink: "https://thollarkings.github.io/mytailors-log/"
@@ -50,7 +49,7 @@ const Projects = () => {
     {
       title: "Measurements Recorder",
       description: "This application serves as a measurement tracking tool. Similar to the My Tailor's Logbook app, this was developed using vanilla JavaScript.",
-      image: "https://images.unsplash.com/photo-1583343423411-a0e9eb11e678?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       tags: ["JavaScript", "HTML", "CSS"],
       githubLink: "https://github.com/thollarkings/Tailors_Log_Book",
       liveLink: "https://thollarkings.github.io/Tailors_Log_Book/"
