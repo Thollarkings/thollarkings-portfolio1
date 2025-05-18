@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -9,7 +10,7 @@ const Projects = () => {
     {
       title: "InvoiceMax",
       description: "InvoiceMax streamlines billing with customizable invoices, receipts, logo uploads, and watermark features for a professional, secure touch. Its user-friendly, responsive design ensures effortless financial management.",
-      image: "https://images.unsplash.com/photo-1618044733300-9472054094ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "https://drive.google.com/uc?export=view&id=1ClBfaG7EbsKHn_I_-IPAGlLxcQVBdxyU",
       tags: ["React", "CSS", "JavaScript"],
       githubLink: "https://github.com/thollarkings/InvoiceMax",
       liveLink: "https://thollarkings.github.io/InvoiceMax/"
@@ -17,7 +18,7 @@ const Projects = () => {
     {
       title: "Unit Converter",
       description: "Unit Converter React Web App is an interactive tool that simplifies the conversion of measurement units. It features a responsive, user-friendly interface that allows users to input values and instantly see their equivalents in another unit.",
-      image: "https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "https://drive.google.com/uc?export=view&id=1rCN0zMLcTlNcas0WWRFCXc2k92xpNyCZ",
       tags: ["React", "JavaScript", "CSS"],
       githubLink: "https://github.com/thollarkings/quantify-the-cosmos-converter",
       liveLink: "https://thollarkings.github.io/quantify-the-cosmos-converter/"
@@ -25,7 +26,7 @@ const Projects = () => {
     {
       title: "My Tailor's Logbook",
       description: "This app is an essential tool for accurately recording client measurements, tracking key details, and ensuring precise fittings and timely delivery.",
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "https://drive.google.com/uc?export=view&id=1c1pzcziyPyXQMySnhtuhTWCbwTtDgR0m",
       tags: ["React", "JavaScript", "CSS"],
       githubLink: "https://github.com/thollarkings/mytailors-log",
       liveLink: "https://thollarkings.github.io/mytailors-log/"
@@ -33,7 +34,7 @@ const Projects = () => {
     {
       title: "Budget App",
       description: "User-friendly budget management tool with React. This app is an essential tool for accurately recording client measurements, tracking key details, and ensuring precise fittings and timely delivery.",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "https://drive.google.com/uc?export=view&id=1DO9Q7ALddccNGmv9h4Tq0Jr7HCBekvUn",
       tags: ["React", "JavaScript", "CSS"],
       githubLink: "https://github.com/thollarkings/kings_budget_app",
       liveLink: "https://thollarkings.github.io/kings_budget_app/"
@@ -41,7 +42,7 @@ const Projects = () => {
     {
       title: "Kings-Calc",
       description: "This app is a Simple Working Calculator designed with React. Its primary goal is to provide basic arithmetic operations.",
-      image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "https://drive.google.com/uc?export=view&id=1N2msJtgC8oIzEJ1SG1xjFnYov17Fhbgd",
       tags: ["React", "JavaScript", "CSS"],
       githubLink: "https://github.com/thollarkings/simple-calculator",
       liveLink: "https://thollarkings.github.io/simple-calculator/"
@@ -49,7 +50,7 @@ const Projects = () => {
     {
       title: "Measurements Recorder",
       description: "This application serves as a measurement tracking tool. Similar to the My Tailor's Logbook app, this was developed using vanilla JavaScript.",
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "https://drive.google.com/uc?export=view&id=1as91TvGmdn-1eLJ2sKFLEPACjwxCwlq5",
       tags: ["JavaScript", "HTML", "CSS"],
       githubLink: "https://github.com/thollarkings/Tailors_Log_Book",
       liveLink: "https://thollarkings.github.io/Tailors_Log_Book/"

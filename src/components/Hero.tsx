@@ -7,13 +7,13 @@ const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="relative bg-gradient-to-b from-blue-50 to-white pt-24 pb-12 md:pt-32 md:pb-24">
+    <section className="relative bg-gradient-to-b from-purple-100 to-blue-50 pt-24 pb-12 md:pt-32 md:pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-gray-900">
-              <span className="block">Hi, I'm</span>
-              <span className="block text-blue-600 mt-1">Oyeniyi Omotola</span>
+            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
+              <span className="block bg-gradient-to-r from-purple-500 to-indigo-600 bg-clip-text text-transparent">Hi, I'm</span>
+              <span className="block bg-gradient-to-r from-indigo-500 to-purple-700 bg-clip-text text-transparent mt-1">Oyeniyi Omotola</span>
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl">
               I build beautiful, responsive, and user-friendly web applications.
@@ -23,7 +23,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 onClick={() => navigate('/projects')}
-                className="gap-2"
+                className="gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 shadow-lg hover:shadow-purple-500/30 transition-all"
               >
                 View My Work <ArrowRight size={18} />
               </Button>
@@ -31,19 +31,20 @@ const Hero = () => {
                 size="lg"
                 variant="outline"
                 onClick={() => navigate('/contact')}
+                className="border-purple-400 text-purple-600 hover:bg-purple-50 shadow-md hover:shadow-purple-300/20 transition-all"
               >
                 Get in Touch
               </Button>
             </div>
           </div>
           <div className="hidden md:block relative">
-            <div className="absolute -top-8 -left-8 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-50"></div>
-            <div className="absolute -bottom-8 -right-8 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-50"></div>
-            <div className="relative bg-white rounded-lg shadow-xl p-4 border border-gray-200">
+            <div className="absolute -top-8 -left-8 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-60"></div>
+            <div className="absolute -bottom-8 -right-8 w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-xl opacity-60"></div>
+            <div className="relative bg-white rounded-lg shadow-2xl p-4 border border-gray-200 shadow-purple-200/50">
               <img 
                 src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
                 alt="Developer"
-                className="rounded w-full object-cover aspect-square"
+                className="rounded w-full object-cover aspect-square hover:scale-[1.01] transition-transform duration-300"
               />
             </div>
           </div>
