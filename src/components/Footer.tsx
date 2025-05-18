@@ -12,18 +12,18 @@ const Footer = () => {
               A showcase of my projects, skills, and professional journey as a web developer.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-purple-300 transition-colors">
+{/*               <a href="#" className="text-gray-400 hover:text-purple-300 transition-colors">
                 <Github size={20} />
                 <span className="sr-only">GitHub</span>
-              </a>
+              </a> */}
               <a href="https://www.linkedin.com/in/omotola-oyeniyi-410b2693" className="text-gray-400 hover:text-purple-300 transition-colors">
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="#" className="text-gray-400 hover:text-purple-300 transition-colors">
+{/*               <a href="#" className="text-gray-400 hover:text-purple-300 transition-colors">
                 <Twitter size={20} />
                 <span className="sr-only">Twitter</span>
-              </a>
+              </a> */}
               <a href="mailto:mediaxtreme1@gmail.com" className="text-gray-400 hover:text-purple-300 transition-colors">
                 <Mail size={20} />
                 <span className="sr-only">Email</span>

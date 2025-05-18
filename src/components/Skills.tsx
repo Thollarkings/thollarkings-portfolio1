@@ -37,18 +37,18 @@ const Skills = () => {
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-gradient-to-r from-purple-200 to-indigo-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">My Skills</h2>
-          <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="mt-4 text-xl text-gray-900 max-w-3xl mx-auto">
             Here are some of the technologies and methodologies I specialize in.
           </p>
         </div>
         
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3" >
           {skillsList.map((skill, index) => (
-            <Card key={index} className="border border-gray-200 hover:shadow-md transition-shadow duration-300">
+            <Card key={index} className="border border-gray-200 hover:shadow-md transition-shadow duration-300" style={{ boxShadow: '0 10px 20px rgba(0, 0, 0, 0.5)' }}>
               <CardHeader>
                 <div className="mb-4">{skill.icon}</div>
                 <CardTitle>{skill.title}</CardTitle>

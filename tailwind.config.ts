@@ -28,6 +28,9 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+				 boxShadow: {
+        'dark-lg': '0 10px 25px rgba(0, 0, 0, 0.6)',
+      },
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
