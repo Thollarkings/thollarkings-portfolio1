@@ -16,8 +16,7 @@ const Hero = () => {
               <span className="block bg-gradient-to-r from-indigo-800 to-purple-700 bg-clip-text text-transparent mt-2 leading-relaxed">Oyeniyi Omotola</span>
             </h1>
             <p className="text-xl text-gray-800 max-w-3xl">
-              I build beautiful, responsive, and user-friendly web applications.
-              My passion is creating digital experiences that leave a lasting impression.
+              I build fast, responsive, and visually compelling web applications. With a strong eye for design and a focus on user experience, I turn ideas into clean, scalable digital products.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button
