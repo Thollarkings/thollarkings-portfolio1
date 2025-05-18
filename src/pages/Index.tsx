@@ -5,6 +5,7 @@ import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import AboutSection from '@/components/AboutSection';
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <AboutSection />
         <Skills />
         <Projects />
         <Contact />
