@@ -28,8 +28,8 @@ const Projects = () => {
     description: "This app is an essential tool for accurately recording client measurements, tracking key details, and ensuring precise fittings and timely delivery.",
     image: "images/Tailorslogs.png",  // Removed leading slash
     tags: ["React", "JavaScript", "CSS"],
-    githubLink: "https://github.com/thollarkings/mytailors-log",
-    liveLink: "https://thollarkings.github.io/mytailors-log/"
+    githubLink: "https://github.com/thollarkings/stitch-scribe-tracker",
+    liveLink: "https://thollarkings.github.io/stitch-scribe-tracker//"
   },
   {
     title: "Budget App",
