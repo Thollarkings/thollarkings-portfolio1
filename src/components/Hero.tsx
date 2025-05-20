@@ -22,7 +22,7 @@ const Hero = () => {
                 className="gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 shadow-lg hover:shadow-purple-500 transition-all"
                 asChild
               >
-                <Link to="/projects">
+                <Link to="/projects" onClick={(e) => e.currentTarget.blur()}>
                   View My Work <ArrowRight size={18} />
                 </Link>
               </Button>
@@ -32,7 +32,7 @@ const Hero = () => {
                 className="border-purple-400 text-purple-600 hover:bg-purple-50 shadow-md hover:shadow-purple-300/20 transition-all"
                 asChild
               >
-                <Link to="/contact">
+                <Link to="/contact" onClick={(e) => e.currentTarget.blur()}>
                   Get in Touch
                 </Link>
               </Button>
