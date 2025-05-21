@@ -6,6 +6,12 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import emailjs from 'emailjs-com';
+
+// EmailJS configuration
+const EMAILJS_SERVICE_ID = 'service_dpd9wqr';
+const EMAILJS_TEMPLATE_ID = 'template_sj1wchu';
+const EMAILJS_PUBLIC_KEY = 'pyeZy5vWUpdu1r3Yx';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -22,26 +28,48 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      // Send email using EmailJS
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          to_email: 'thollarkings@gmail.com'
+        },
+        EMAILJS_PUBLIC_KEY
+      );
+
+      // Show success message
       toast({
         title: "Message sent!",
         description: "Thanks for reaching out. I'll get back to you soon!",
       });
       
+      // Reset form
       setFormData({
         name: '',
         email: '',
         subject: '',
         message: ''
       });
-      
+    } catch (error) {
+      console.error('EmailJS error:', error);
+      toast({
+        title: "Failed to send message",
+        description: "Please try again or contact me directly via email.",
+        variant: "destructive",
+      });
+    } finally {
       setIsSubmitting(false);
-    }, 1500);
+    }
   };
 
   return (
@@ -112,7 +140,7 @@ const Contact = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6" id="contactForm">
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   <div className="space-y-2">
                     <label htmlFor="name" className="text-sm font-medium text-gray-700">

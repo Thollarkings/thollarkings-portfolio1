@@ -4,6 +4,14 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
+  // Function to handle button clicks on both mobile and desktop
+  const handleButtonClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // Remove focus effect after click (helps with mobile touch events)
+    setTimeout(() => {
+      e.currentTarget.blur();
+    }, 100);
+  };
+
   return (
     <section className="relative bg-gradient-to-b from-purple-100 to-blue-50 pt-24 pb-12 md:pt-32 md:pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,20 +27,20 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4 [&>button]:min-h-[48px]">
               <Button
                 size="lg"
-                className="gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 shadow-lg hover:shadow-purple-500 transition-all py-4 px-6 pointer-events-auto"
+                className="gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 shadow-lg hover:shadow-purple-500 transition-all py-4 px-6 pointer-events-auto z-10 relative"
                 asChild
               >
-                <Link to="/projects">
+                <Link to="/projects" onClick={handleButtonClick}>
                   View My Work <ArrowRight size={18} />
                 </Link>
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="border-purple-400 text-purple-600 hover:bg-purple-50 shadow-md hover:shadow-purple-300/20 transition-all py-4 px-6 pointer-events-auto"
+                className="border-purple-400 text-purple-600 hover:bg-purple-50 shadow-md hover:shadow-purple-300/20 transition-all py-4 px-6 pointer-events-auto z-10 relative"
                 asChild
               >
-                <Link to="/contact">
+                <Link to="/contact" onClick={handleButtonClick}>
                   Get in Touch
                 </Link>
               </Button>
