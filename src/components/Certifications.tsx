@@ -41,12 +41,12 @@ const Certifications = () => {
     },
     {
       title: "Advanced React",
-      image: "https://img.freepik.com/free-vector/web-developer-working-website-code_110633-452.jpg",
+      image: "/images/reactw.png",
       link: "https://www.coursera.org/account/accomplishments/records/WXY6NZ7658N5"
     },
     {
       title: "JavaScript Basics",
-      image: "https://img.freepik.com/free-vector/javascript-concept-illustration_114360-4111.jpg",
+      image: "images/javascript.png",
       link: "https://www.coursera.org/account/accomplishments/records/ORLFTEB8SXKR"
     },
   ];
