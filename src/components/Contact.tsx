@@ -33,17 +33,23 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
+      // Create a template params object with exact variable names expected by EmailJS
+      const templateParams = {
+        name: formData.name,                // Variable for recipient's name
+        from_name: formData.name,           // Name of the sender
+        email: formData.email,              // Variable for recipient's email
+        from_email: formData.email,         // Email of the sender
+        subject: formData.subject,          // Email subject
+        message: formData.message,          // Message content
+        time: new Date().toLocaleString(),  // Current time
+        to_email: 'thollarkings@gmail.com'  // Recipient email address
+      };
+
       // Send email using EmailJS
       await emailjs.send(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-          to_email: 'thollarkings@gmail.com'
-        },
+        templateParams,
         EMAILJS_PUBLIC_KEY
       );
 
