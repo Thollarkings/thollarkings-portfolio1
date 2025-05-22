@@ -31,7 +31,7 @@ const Certifications = () => {
     },
     {
       title: "Python for Data Science, AI & Development",
-      image: "/images/python.png",
+      image: "images/python.png",
       link: "https://www.coursera.org/account/accomplishments/records/31M8ZIEZ7XIN"
     },
     {
@@ -41,7 +41,7 @@ const Certifications = () => {
     },
     {
       title: "Advanced React",
-      image: "/images/reactw.png",
+      image: "images/reactw.png",
       link: "https://www.coursera.org/account/accomplishments/records/WXY6NZ7658N5"
     },
     {
