@@ -12,9 +12,6 @@ const AboutPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <h1 className="text-4xl font-bold mb-8">About Me</h1>
           <AboutSection />
-          <div className="mt-16">
-            <Certifications />
-          </div>
           <div className="my-12 text-center">
             <a 
               href="https://drive.google.com/file/d/1m8QuPXPUgqljib4kWXzAJE1I0bi9CG8k/view" 
@@ -25,6 +22,10 @@ const AboutPage = () => {
               Download Resume
             </a>
           </div>
+          <div className="mt-16">
+            <Certifications />
+          </div>
+          
         </div>
       </main>
       <Footer />

@@ -31,7 +31,7 @@ const Certifications = () => {
     },
     {
       title: "Python for Data Science, AI & Development",
-      image: "https://img.freepik.com/free-vector/data-science-background_23-2148022430.jpg",
+      image: "/images/python.png",
       link: "https://www.coursera.org/account/accomplishments/records/31M8ZIEZ7XIN"
     },
     {
