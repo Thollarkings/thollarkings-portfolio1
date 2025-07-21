@@ -8,6 +8,14 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
   const projects = [
   {
+    title: "JaduPoint",
+    description: "A modern food ordering website with sleek design, user authentication, data persistence, and automated email reply functionality for seamless customer experience.",
+    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=500&q=80",
+    tags: ["React", "Authentication", "Email Integration", "Food Ordering"],
+    githubLink: "https://github.com/thollarkings/jadupoint",
+    liveLink: "https://www.jadupoint.com"
+  },
+  {
     title: "InvoiceMax",
     description: "InvoiceMax streamlines billing with customizable invoices, receipts, logo uploads, and watermark features for a professional, secure touch. Its user-friendly, responsive design ensures effortless financial management.",
     image: "images/Invoicemax.png",  // Removed leading slash
