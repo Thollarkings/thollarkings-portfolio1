@@ -10,7 +10,7 @@ const Projects = () => {
   {
     title: "JaduPoint",
     description: "A modern food ordering website with sleek design, user authentication, data persistence, and automated email reply functionality for seamless customer experience.",
-    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=500&q=80",
+    image: "images/jadupoint.png",
     tags: ["React", "Authentication", "Email Integration", "Food Ordering"],
     githubLink: "https://github.com/thollarkings/jadupoint",
     liveLink: "https://www.jadupoint.com"
